@@ -6,6 +6,13 @@
     width: 100%;
 }
 
+section {
+    height: auto;
+    width: 75vw;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
 table {
     text-align: center;
     margin-left: 50%;
@@ -15,29 +22,36 @@ table {
 
 p {
     text-align: center;
-    font-size: larger;
-    line-height: 2ch;
+    font-size: x-large;
+    line-height: 1.8ch;
 }
 
 strong {
-    font-size: 28px;
+    font-size: 32px;
     font-weight: bold;
 }
 
 li {
     display: inline-block;
-    margin: 0% 6% 0% 6%;
-}
-li:hover{
-    color: rgb(196, 108, 199);
-    cursor: pointer;
+    margin: auto;
    
+}
+ul{
+    word-spacing: 5vw;
+    margin: auto;
+    padding: 1em;
+    text-align: center;
+}
+li:hover {
+    color: blueviolet;
+    cursor: pointer;
 }
 
 #ld {
     border-top: 4px solid black;
     border-bottom: 4px solid gray;
-    margin: 0% 20% 0% 20%;
+    margin: auto;
+    /* width: auto; */
 }
 
 #HOME {
@@ -45,31 +59,39 @@ li:hover{
 }
 
 img {
-    /* width: 33%;
-    height: 25%; */
+    height: 10em;
+    width: 24vw;
     transition: all ease 1s;
+    margin: 3%;
+    padding: 0;
 }
 
-#imgd {
-    margin: 1% 20% 0% 20%;
-      
-}
-.pic{
-    display: inline-block;
+.pic {
     overflow: hidden;
+    transition: all ease 1s;
+    display: inline-block;
+
 }
+
 img:hover {
     scale: 1.1;
 }
 
+#imgd {
+    margin: auto;
+}
+
 #p {
-    margin: 1% 20% 0% 20%;
+    margin: auto;
+    text-align: justify;
 }
 
 #p>p {
     text-transform: lowercase;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 1000;
-    text-align: justify;
-    font-size: 16px;
+}
+
+img:hover {
+    scale: 1.1;
 }
